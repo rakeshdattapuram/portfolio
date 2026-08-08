@@ -640,7 +640,8 @@ padding-top:70px;
     }
 
     .contact {
-        min-height: 86vh !important;
+        min-height: 90vh !important;
+height:auto;
         padding-bottom: 20px !important;
     }
 
