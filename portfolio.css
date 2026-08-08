@@ -511,9 +511,7 @@ section {
 
 .contact-icons>div:nth-child(3) p {
     margin-left: 10px;
-}
-.contact-icons>div:nth-child(4) p {
-    margin-left: 10px;
+margin-right:10px;
 }
 
     .home1 h1 {
