@@ -505,6 +505,13 @@ section {
     .home1 h2 {
         font-size: 20px;
     }
+.contact-icons .icons1:first-child p {
+    margin-left: 10px;
+}
+
+.contact-icons .icons1:nth-child(3) p {
+    margin-left: 10px;
+}
 
     .home1 h1 {
         font-size: 24px;
