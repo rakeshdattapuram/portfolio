@@ -509,7 +509,7 @@ section {
     margin-left: 10px;
 }
 
-.contact-icons .icons1:nth-child(3) p {
+.contact-icons>div:nth-child(3) p {
     margin-left: 10px;
 }
 
