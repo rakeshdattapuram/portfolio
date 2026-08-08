@@ -163,7 +163,9 @@ li:active {
 
 .home {
     z-index: 1;
-    text-align: center;
+    text-align: left;
+padding:0 30px;
+width:100%;
 
 }
 
@@ -174,7 +176,7 @@ li:active {
     align-items: center;
     justify-content: center;
     font-family: oswald;
-
+padding-top:100px;
     height: auto;
 
 
@@ -405,10 +407,10 @@ section {
     color: rgb(179, 255, 1);
     display: flex;
     font-family: dm sans;
-    align-items: start;
-    justify-content: start;
-    text-align: start;
-    margin-left: 222px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    margin-left: 0;
 
 
 }
@@ -507,10 +509,21 @@ section {
     .home1 h1 {
         font-size: 24px;
     }
+    .home{
+     text-align:left;
+padding:0 20px;
+width:100%;
+    }
+. home2{ 
+margin-left:0 !important;
+text-align:left; 
+}
 
     .home1 {
-        min-height: 100vh !important;
-    }
+        min-height: 90vh !important;
+    height:auto;
+padding-top:70px;
+     }
 
     .navdiv {
         min-height: 70px;
@@ -552,14 +565,9 @@ section {
         margin: 10px;
     }
 
-    .home2 h1 {
-        margin-right: 90px !important;
-        margin-top: 20px !important;
-    }
+  
 
-    .home2 {
-        margin-left: 150px !important;
-    }
+    
 
     .ab {
         font-size: 20px !important;
@@ -585,9 +593,7 @@ section {
         height: auto;
     }
 
-    .home1 {
-        height: auto;
-    }
+    
 
     .skills h1 {
         font-size: 22px;
